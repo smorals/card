@@ -1,3 +1,9 @@
-background-image: url('Artboard 4.svg'); 
+body{background-image: url('images/smorals-bg.svg');
 background-size: cover;
-  
+}
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
