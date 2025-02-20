@@ -1,6 +1,14 @@
 body{background-image: url('images/smorals-bg.svg');
 background-size: cover;
 }
+
+.nunito-regular {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Example weight */
+  font-style: normal;
+}
+
 .icon-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
