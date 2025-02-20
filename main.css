@@ -1,5 +1,7 @@
 body{background-image: url('images/smorals-bg.svg');
 background-size: cover;
+/* width:100vw; */
+/* height:100vh; */
 }
 
 .nunito-regular {
@@ -11,7 +13,28 @@ background-size: cover;
 
 .icon-container {
     display: grid;
+    width: 30%;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     gap: 10px;
   }
+
+h2{
+  text-align: center;
+  /* width: 555px; 
+  height: 51px;  */
+  color: #E0587C; 
+  font-size: 28px; 
+  font-family: Nunito; 
+  font-weight: 400; 
+  word-wrap: break-word"
+}
+
+h3{
+  text-align: center; 
+  color: #9AB3FD; 
+  font-size: 36px; 
+  font-family: Nunito; 
+  font-weight: 400; 
+  word-wrap: break-word"
+}
