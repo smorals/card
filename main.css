@@ -15,10 +15,14 @@ body{background-image: url('images/smorals-bg.svg');
 }
 
 .big-logo {
-  width: 100%;
+  transform: scale(1.5);
+  /* width: 140%; */
   height: auto;
-  padding-top: 60px;
-  padding-bottom: 10px; 
+  margin: 0 auto;
+  align-items: center;
+
+  /* padding-top: 60px; */
+  /* padding-bottom: 10px;  */
 }
 
 .icon-container {
@@ -50,4 +54,12 @@ h3{
   font-weight: 400; 
   word-wrap: break-word;
   padding-bottom: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .big-logo {
+    transform: scale(1.1);
+  }
+  
 }
