@@ -56,6 +56,15 @@ h3{
   padding-bottom: 40px;
 }
 
+.icon{
+  fill:#9AB3FD
+}
+.icon:hover{
+  fill:#E0587C;
+  transform-origin: center;
+} 
+
+
 
 @media screen and (max-width: 768px) {
   .big-logo {
@@ -63,3 +72,4 @@ h3{
   }
   
 }
+
