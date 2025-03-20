@@ -20,8 +20,7 @@ body{background-image: url('images/smorals-bg.svg');
   height: auto;
   margin: 0 auto;
   align-items: center;
-
-  /* padding-top: 60px; */
+  padding-top: 40px;
   /* padding-bottom: 10px;  */
 }
 
@@ -62,8 +61,7 @@ h3{
 .icon:hover{
   fill:#E0587C;
   transform-origin: center;
-} 
-
+}
 
 
 @media screen and (max-width: 768px) {
